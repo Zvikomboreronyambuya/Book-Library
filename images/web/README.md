@@ -1,1 +1,1 @@
-Favicons
+Icons
