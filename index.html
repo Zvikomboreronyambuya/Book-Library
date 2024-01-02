@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="icon" href="./images/Web/icons8-digital-library-flatart-icons-lineal-color-16.png" type="image/png">
+  <link rel="icon" href="./images/Web/icons8-digital-library-flatart-icons-lineal-color-32.png" type="image/png">
+  <link rel="stylesheet" href="./library.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mallanna&display=swap" rel="stylesheet">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="leftSide">
+      <h1>Library</h1>
+    </div>
+    <div class="rightSide">
+      <button action="#" type="button" >Log in</button>
+    </div>
+  </header>
+  <div class="container">
+    <div class="addBook">
+      <button>+ Add book</button>
+    </div>
+    <div class="bookshelf0">
+    <div class="book0">
+      <div class="card0">
+      <div>
+      <label for="title">Title</label>
+      </div>
+      <div>
+      <input type="text" name="title" id="title" required> <br>
+      </div>
+      <div>
+      <label for="author">Author</label>
+      </div>
+      <input type="text" name="author" id="author" required><br>
+
+      <div>
+      <label for="pages">Pages</label>
+      </div>
+      <input type="text" name="pages" id="pages" required><br>
+
+      <div>
+      <label for="read">Read ?</label>
+      </div>
+      <input type="radio" name="answer" id="yes">Yes
+      <input type="radio" id="read" name="answer" checked>No <br>
+      <button type="submit">Remove Book</button>
+    </div>
+    </div>
+    </div>
+
+    <div class="bookshelf1">
+    <div class="book1">
+      <div class="card1">
+      <div>
+      <label for="title1">Title</label>
+      </div>
+      <input type="text" name="title" id="title1"  required> <br>
+
+      <div>
+      <label for="author1">Author</label>
+      </div>
+      <input type="text" name="author" id="author1" required><br>
+
+      <div>
+      <label for="pages1">Pages</label>
+      </div>
+      <input type="text" name="pages" id="pages1" required><br>
+      
+      <div>
+      <label for="read1">Read ?</label>
+      </div>
+      <input type="radio" name="answer" id="yes1">Yes
+      <input type="radio" id="read1" name="answer1" checked>No <br>
+      <button type="submit">Remove Book</button>
+    </div>
+    </div>
+    </div>
+
+    <div class="bookshelf2">
+    <div class="book2">
+      <div class="card2">
+      <div>
+      <label for="title2">Title</label>
+      </div>
+      <input type="text" name="title" id="title2"  required> <br>
+      
+      <div>
+      <label for="author2">Author</label>
+      </div>
+      <input type="text" name="author" id="author2" required><br>
+      
+      <div>
+      <label for="pages2">Pages</label>
+      </div>
+      <input type="text" name="pages" id="pages2" required><br>
+    
+      <div>
+      <label for="read2">Read ?</label>
+      </div>
+
+      <input type="radio" name="answer" id="yes2">Yes
+      <input type="radio" id="read2" name="answer2" checked>No <br>
+      <button type="submit">Remove Book</button>
+    </div>
+    </div>
+    </div>
+
+    <section id="modal">
+      <div class="content">
+        <form action="#" method="post">
+          <div class="book3">
+            <div class="card3">
+            <div>
+            <label for="title3">Title</label>
+            </div>
+            <input type="text" name="title" id="title3"  required> <br>
+            
+            <div>
+            <label for="author2">Author</label>
+            </div>
+            <input type="text" name="author" id="author3" required><br>
+            
+            <div>
+            <label for="pages3">Pages</label>
+            </div>
+            <input type="number" name="pages" id="pages3" required><br>
+          
+            <div>
+            <label for="read3">Read ?</label>
+            </div>
+      
+            <input type="radio" name="answer3" id="yes3">Yes
+            <input type="radio" id="read3" name="answer3" checked>No <br>
+            <button type="button" onclick="addBookToLibrary()">Submit</button>
+          </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    &#169; Copyright, Owen Nyambuya 2023
+  </footer>
+</body>
+</html>
